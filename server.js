@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 mercadopago.configure({
-    access_token: "your_acces_token",
+    access_token: "TEST-1291734623694321-081112-c71ea35dd9e35c6dec44f1b84ca0b144-91553276",
 });
 
 app.get('/', function (req, res) {
@@ -24,8 +24,8 @@ app.post("/create_preference", (req, res) => {
             },
         ],
         back_urls: {
-            success: "http://localhost:5173",
-            failure: "http://localhost:5173",
+            success: "http://localhost:3000",
+            failure: "http://localhost:3000",
             pending: "",
         },
         auto_return: "approved",
