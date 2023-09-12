@@ -29,8 +29,8 @@ app.post("/create_preference", async (req, res) => {
                 },
             ],
             back_urls: {
-                success: "http://localhost:8080",
-                failure: "http://localhost:8080",
+                success: "https://antistampa.netlify.app/dashboard",
+                failure: "https://antistampa.netlify.app/dashboard",
                 pending: "",
             },
             auto_return: "approved",
