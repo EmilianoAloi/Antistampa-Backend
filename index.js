@@ -29,8 +29,8 @@ app.post("/create_preference", async (req, res) => {
                 },
             ],
             back_urls: {
-                success: "https://antistampa.netlify.app/dashboard",
-                failure: "https://antistampa.netlify.app/dashboard",
+                success: "https://antistampa.netlify.app/confirmed",
+                failure: "https://antistampa.netlify.app/",
                 pending: "",
             },
             auto_return: "approved",
